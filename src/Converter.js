@@ -11,8 +11,8 @@ import { convertInput } from "./parser";
 import { useState, useEffect } from "react";
 
 export default function Converter() {
-	const [input, setInput] = useState("2 + 3");
-	const [output, setOutput] = useState("");
+	const [input, setInput] = useState("");
+	const [output, setOutput] = useState("Waiting for input...");
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState(false);
 
@@ -21,9 +21,11 @@ export default function Converter() {
 	}, []);
 
 	useEffect(() => {
+		if (!input) return setLoading(false);
+
 		const timeOutId = setTimeout(() => {
 			setError(false);
-			localStorage.setItem("input", input);
+			localStorage.setItem("input", input ?? "");
 
 			try {
 				setOutput(convertInput(input));
@@ -54,7 +56,7 @@ export default function Converter() {
 					fullWidth
 					label="Equation"
 					onChange={(event) => {
-						setInput(event.target.value);
+						setInput(event.target.value ?? "");
 						setLoading(true);
 					}}
 					value={input}
