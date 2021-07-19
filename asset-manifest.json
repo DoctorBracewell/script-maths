@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/gm/equation-parser/static/js/main.65fb8097.chunk.js",
-    "main.js.map": "/gm/equation-parser/static/js/main.65fb8097.chunk.js.map",
-    "runtime-main.js": "/gm/equation-parser/static/js/runtime-main.af74b707.js",
-    "runtime-main.js.map": "/gm/equation-parser/static/js/runtime-main.af74b707.js.map",
-    "static/js/2.f087489d.chunk.js": "/gm/equation-parser/static/js/2.f087489d.chunk.js",
-    "static/js/2.f087489d.chunk.js.map": "/gm/equation-parser/static/js/2.f087489d.chunk.js.map",
-    "index.html": "/gm/equation-parser/index.html",
-    "static/js/2.f087489d.chunk.js.LICENSE.txt": "/gm/equation-parser/static/js/2.f087489d.chunk.js.LICENSE.txt"
+    "main.js": "/script-maths/static/js/main.65fb8097.chunk.js",
+    "main.js.map": "/script-maths/static/js/main.65fb8097.chunk.js.map",
+    "runtime-main.js": "/script-maths/static/js/runtime-main.64fbcdd9.js",
+    "runtime-main.js.map": "/script-maths/static/js/runtime-main.64fbcdd9.js.map",
+    "static/js/2.f087489d.chunk.js": "/script-maths/static/js/2.f087489d.chunk.js",
+    "static/js/2.f087489d.chunk.js.map": "/script-maths/static/js/2.f087489d.chunk.js.map",
+    "index.html": "/script-maths/index.html",
+    "static/js/2.f087489d.chunk.js.LICENSE.txt": "/script-maths/static/js/2.f087489d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.af74b707.js",
+    "static/js/runtime-main.64fbcdd9.js",
     "static/js/2.f087489d.chunk.js",
     "static/js/main.65fb8097.chunk.js"
   ]
