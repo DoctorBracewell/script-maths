@@ -1,25 +1,15 @@
-<h1 align="center">Welcome to WynnScript Equation Converter 👋</h1>
-<p>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/DoctorBracewell/script-maths?style=for-the-badge" />
-  </a>
-</p>
+<div align="center">
+  <h1 align="center">Wynnscript Equation Convertor</h1>
+  <p>
+    <img alt="Github license" src="https://img.shields.io/github/license/DoctorBracewell/script-maths?style=for-the-badge">
+    <img alt="Github release" src="https://img.shields.io/github/v/release/DoctorBracewell/script-maths?style=for-the-badge" />
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/DoctorBracewell/script-maths?style=for-the-badge">
+  </p>
+</div>
 
 > Compile normal full-length mathematical equations to WynnScript function trees.
 
 ### 🏠 [Homepage](https://brace.dev/script-maths)
-
-## Install
-
-```sh
-npm install
-```
-
-## Usage
-
-```sh
-npm run start
-```
 
 ## Author
 
@@ -30,6 +20,6 @@ npm run start
 
 ---
 
-Feel free to ⭐️ the repo if you thought this site was cool!
+Feel free to ⭐️ the repo if you thought this project was cool!
 
 ~ Brace
